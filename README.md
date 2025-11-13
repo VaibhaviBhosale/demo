@@ -12,6 +12,17 @@ https://github.com/eMahtab/node-express-hello-world?utm_source=chatgpt.com
 PHP Simple Application
 https://github.com/banago/simple-php-website
 
+Php :
+Windows:
+cd C:\php_app_lab2
+php -S localhost:8000
+Ubuntu:
+sudo apt update
+sudo apt install php -y
+cd /home/student/php_app_lab2
+php -S 0.0.0.0:8000
+
+
 Django Application
 https://github.com/LondonAppDeveloper/demo-django-hello-world-starter
 1.	python –version
@@ -49,14 +60,50 @@ Ruby application
 12.	sudo apt install ruby-full -y
 13.	sudo apt update
 14.	ruby example.rb
+
+or 
+
+Ruby : 
+Window : 
+# 1. Install Ruby (https://rubyinstaller.org)
+ruby -v
+gem install bundler
+cd C:\ruby_lab5
+bundle install
+ruby app.rb
+Visit → http://localhost:4567
+Ubuntu:
+sudo apt update
+sudo apt install ruby bundler -y
+cd /home/student/ruby_lab5
+bundle install
+ruby app.rb
     
 Python Flask Application
 https://github.com/patrickloeber/flask-todo
+
+
+Flask : 
+Windows :
+cd C:\python_lab13
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+python app.py
+Ubuntu : 
+sudo apt install python3 python3-venv python3-pip -y
+cd /home/student/python_lab13
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+python3 app.py
+
 
 Java  Maven
 https://github.com/jabedhasan21/java-hello-world-with-maven
 
 https://github.com/up1/maven_java_web_example?utm_source=chatgpt.com
+
 1.	Check java –version
 2.	Check mvn –version
 3.	If  maven not present use this link to download https://medium.com/@gauravshah97/how-to-install-maven-on-windows-39ff317e40cf
@@ -81,6 +128,7 @@ e)	press enter
     
 PHP form validation
 https://github.com/ASoares/PHP-Form-Validation
+
 
 Python notes Application
 https://github.com/toon-van-berkel/PP-NoteAppPython
