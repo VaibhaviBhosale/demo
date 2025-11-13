@@ -54,6 +54,7 @@ https://github.com/patrickloeber/flask-todo
 
 Java  Maven
 https://github.com/jabedhasan21/java-hello-world-with-maven
+
 https://github.com/up1/maven_java_web_example?utm_source=chatgpt.com
 1.	Check java –version
 2.	Check mvn –version
