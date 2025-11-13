@@ -66,18 +66,18 @@ or
 Ruby : 
 Window : 
 1. Install Ruby (https://rubyinstaller.org)
-ruby -v
-gem install bundler
-cd C:\ruby_lab5
-bundle install
-ruby app.rb
-Visit → http://localhost:4567
+2. ruby -v
+3. gem install bundler
+4. cd C:\ruby_lab5
+5. bundle install
+6. ruby app.rb
+7. Visit → http://localhost:4567
 Ubuntu:
-sudo apt update
-sudo apt install ruby bundler -y
-cd /home/student/ruby_lab5
-bundle install
-ruby app.rb
+1. sudo apt update
+2. sudo apt install ruby bundler -y
+3. cd /home/student/ruby_lab5
+4. bundle install
+5. ruby app.rb
     
 Python Flask Application
 https://github.com/patrickloeber/flask-todo
@@ -85,18 +85,19 @@ https://github.com/patrickloeber/flask-todo
 
 Flask : 
 Windows :
-cd C:\python_lab13
-python -m venv venv
-venv\Scripts\activate
-pip install -r requirements.txt
-python app.py
+1. cd C:\python_lab13
+2. python -m venv venv
+3. venv\Scripts\activate
+4. pip install -r requirements.txt
+5. python app.py
 Ubuntu : 
-sudo apt install python3 python3-venv python3-pip -y
-cd /home/student/python_lab13
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-python3 app.py
+1. sudo apt install python3 python3-venv 
+2. python3-pip -y
+3. cd /home/student/python_lab13
+4. python3 -m venv venv
+5. source venv/bin/activate
+6. pip install -r requirements.txt
+7. python3 app.py
 
 
 Java  Maven
