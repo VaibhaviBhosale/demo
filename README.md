@@ -14,13 +14,13 @@ https://github.com/banago/simple-php-website
 
 Php :
 Windows:
-cd C:\php_app_lab2
-php -S localhost:8000
+1. cd C:\php_app_lab2
+2. php -S localhost:8000
 Ubuntu:
-sudo apt update
-sudo apt install php -y
-cd /home/student/php_app_lab2
-php -S 0.0.0.0:8000
+1. sudo apt update
+2. sudo apt install php -y
+3. cd /home/student/php_app_lab2
+4. php -S 0.0.0.0:8000
 
 
 Django Application
@@ -65,7 +65,7 @@ or
 
 Ruby : 
 Window : 
-# 1. Install Ruby (https://rubyinstaller.org)
+1. Install Ruby (https://rubyinstaller.org)
 ruby -v
 gem install bundler
 cd C:\ruby_lab5
