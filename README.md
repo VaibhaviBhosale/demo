@@ -135,4 +135,7 @@ Python notes Application
 https://github.com/toon-van-berkel/PP-NoteAppPython
 
 
-
+EC2
+after instance creation go to cmd
+1. ssh -i "<.pem file path>" <username of instance i.e. debian>@<copy public ipv4 adress in instance>
+2. exit
