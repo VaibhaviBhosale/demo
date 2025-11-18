@@ -1,141 +1,96 @@
-# demo
-
-Node application
-https://github.com/eMahtab/node-express-hello-world?utm_source=chatgpt.com
-1.	node -v
-2.	npm -v
-3.	Node index.js
-4.	Open ubuntu 
-5.	Sudo node -v
-6.	Node index.is
-
-PHP Simple Application
-https://github.com/banago/simple-php-website
-
-Php :
-Windows:
-1. cd C:\php_app_lab2
-2. php -S localhost:8000
-Ubuntu:
-1. sudo apt update
-2. sudo apt install php -y
-3. cd /home/student/php_app_lab2
-4. php -S 0.0.0.0:8000
-
-
-Django Application
-https://github.com/LondonAppDeveloper/demo-django-hello-world-starter
-1.	python –version
-2.	go to project directory
-3.	python -m venv venv
-4.	venv\Scripts\activate
-5.	pip install -r requirements.txt
-6.	pip install django
-7.	python manage.py makemigrations
-8.	python manage.py migrate
-9.	python manage.py runserver
-10.	open ubuntu
-11.	
-12.	sudo apt update && sudo apt upgrade -y
-13.	sudo apt install python3.12-venv
-14.	python3 -m venv venv
-15.	source venv/bin/activate
-16.	pip install Django
-17.	python3 manage.py migrate
-18.	python3 manage.py runserver
-    
-Ruby application
- https://github.com/Ali-Farhadnia/RubyExamples.git
-1.	ruby -v
-2.	https://rubyinstaller.org/downloads/
-3.	
-4.	Navigate into the project directory:
-5.	cd RubyExamples
-6.	Run a Ruby file:
-7.	For example, to run a file named variables.rb:
-8.	ruby variables.rb
-9.	Ubuntu
-10.	Ruby -v
-11.	if not found   Sudo apt update
-12.	sudo apt install ruby-full -y
-13.	sudo apt update
-14.	ruby example.rb
-
-or 
-
-Ruby : 
-Window : 
-1. Install Ruby (https://rubyinstaller.org)
-2. ruby -v
-3. gem install bundler
-4. cd C:\ruby_lab5
-5. bundle install
-6. ruby app.rb
-7. Visit → http://localhost:4567
-Ubuntu:
-1. sudo apt update
-2. sudo apt install ruby bundler -y
-3. cd /home/student/ruby_lab5
-4. bundle install
-5. ruby app.rb
-    
-Python Flask Application
-https://github.com/patrickloeber/flask-todo
-
-
-Flask : 
-Windows :
-1. cd C:\python_lab13
-2. python -m venv venv
-3. venv\Scripts\activate
-4. pip install -r requirements.txt
-5. python app.py
-Ubuntu : 
-1. sudo apt install python3 python3-venv 
-2. python3-pip -y
-3. cd /home/student/python_lab13
-4. python3 -m venv venv
-5. source venv/bin/activate
-6. pip install -r requirements.txt
-7. python3 app.py
-
-
-Java  Maven
-https://github.com/jabedhasan21/java-hello-world-with-maven
-
-https://github.com/up1/maven_java_web_example?utm_source=chatgpt.com
-
-1.	Check java –version
-2.	Check mvn –version
-3.	If  maven not present use this link to download https://medium.com/@gauravshah97/how-to-install-maven-on-windows-39ff317e40cf
-4.	Set path of downloaded extracted zip of bin folder 
-5.	Check mvn –version
-6.	Go to project and run the below commands 
-a)	mvn compile
-b)	mvn package
-c)	cd target
-d)	type java -cp (after space tap tab until .jar file comes and type then  ‘hello.HelloWorld’)
-e)	press enter
-7.	open ubuntu
-8.	sudo apt update
-9.	sudo apt install openjdk-17-jdk -y
-10.	java -version
-11.	sudo apt install maven -y
-12.	go to project directory
-13.	mvn clean install
-14.	cd target
-15.	ls
-16.	type java -jar (after space tap tab until snapshot.jar file comes)
-    
-PHP form validation
-https://github.com/ASoares/PHP-Form-Validation
-
-
-Python notes Application
-https://github.com/toon-van-berkel/PP-NoteAppPython
-
-
-EC2
-after instance creation go to cmd
-1. ssh -i "<.pem file path>" <username of instance i.e. debian>@<copy public ipv4 adress in instance>
-2. exit
+Classification Assignments 
+1. Medical Diagnosis Using SVM 
+• Scenario: A hospital wants to automate the diagnosis of skin cancer using image 
+data.  
+• Task: Train an SVM to classify skin lesions as benign or malignant using image 
+features. 
+2. Loan Default Prediction with Decision Trees 
+• Scenario: A bank needs to assess loan applicants for risk of default.  
+• Task: Use decision trees to classify applicants based on income, credit score, 
+and employment history. 
+3. Disease Classification with KNN 
+• Scenario: A clinic wants to predict whether a patient has diabetes based on 
+health metrics.  
+• Task: Apply KNN to classify patients using features like glucose level, BMI, and 
+age. 
+4. Email Spam Detection Using Naive Bayes 
+• Scenario: An email service provider wants to filter spam messages.  
+• Task: Use Naive Bayes to classify emails based on word frequency and 
+metadata. 
+5. Customer Sentiment Analysis with SVM 
+• Scenario: An e-commerce company wants to analyze customer reviews.  
+• Task: Train an SVM to classify reviews as positive or negative using text data. 
+Regression Assignments 
+6. House Price Prediction Using Linear Regression 
+• Scenario: A real estate firm wants to estimate property prices.  
+• Task: Use linear regression to predict prices based on location, size, and 
+amenities. 
+7. Churn Probability with Logistic Regression 
+• Scenario: A telecom company wants to predict customer churn.  
+• Task: Apply logistic regression to model churn likelihood using usage and billing 
+data. 
+8. Stock Price Forecasting with Least Squares 
+• Scenario: A financial analyst wants to forecast stock prices.  
+• Task: Use least squares regression on historical stock data to predict future 
+trends. 
+9. Crop Yield Estimation Using Linear Regression 
+• Scenario: An agricultural agency wants to predict crop yields.  
+• Task: Model yield based on rainfall, temperature, and soil quality. 
+10. Heart Disease Risk Prediction with Logistic Regression 
+• Scenario: A health startup wants to assess heart disease risk.  
+• Task: Use logistic regression on patient data to predict risk levels. 
+Random Forest Assignments 
+11. Fraud Detection in Financial Transactions 
+• Scenario: A bank wants to detect fraudulent transactions.  
+• Task: Use random forest to classify transactions as legitimate or fraudulent. 
+12. Employee Attrition Prediction 
+• Scenario: An HR department wants to reduce employee turnover.  
+• Task: Train a random forest model to predict attrition using job satisfaction and 
+performance data. 
+13. Air Quality Classification 
+• Scenario: A city council wants to monitor pollution levels.  
+• Task: Use random forest to classify AQI levels based on sensor data. 
+14. Product Recommendation System 
+• Scenario: An online store wants to personalize product suggestions.  
+• Task: Use random forest to predict user preferences based on browsing and 
+purchase history. 
+Clustering Assignments (K-Means) 
+15. Customer Segmentation for Marketing 
+• Scenario: A retail chain wants to target promotions effectively.  
+• Task: Use K-means to segment customers by spending behavior and 
+demographics. 
+16. Document Clustering for News Articles 
+• Scenario: A media company wants to organize articles by topic.  
+• Task: Apply K-means to cluster articles using TF-IDF features. 
+17. Image Compression Using K-Means 
+• Scenario: A mobile app needs to reduce image sizes.  
+• Task: Use K-means to compress images by clustering pixel colors. 
+18. Traffic Pattern Analysis 
+• Scenario: A smart city project wants to optimize traffic flow.  
+• Task: Cluster GPS data to identify congestion zones and peak hours. 
+Association Rule Mining Assignments 
+19. Market Basket Analysis for Retail 
+• Scenario: A supermarket wants to optimize product placement.  
+• Task: Use Apriori algorithm to find frequent itemsets and generate association 
+rules. 
+20. Web Navigation Pattern Mining 
+• Scenario: A website wants to improve user experience.  
+• Task: Apply association rule mining to discover common navigation paths. 
+21. Medical Prescription Pattern Discovery 
+• Scenario: A hospital wants to analyze co-prescribed drugs.  
+• Task: Use association rules to find frequent drug combinations. 
+22. Online Course Recommendation 
+• Scenario: An ed-tech platform wants to suggest relevant courses.  
+• Task: Mine user enrollment data to find course associations. 
+23. Retail Loss Prevention 
+• Scenario: A store wants to detect suspicious buying patterns.  
+• Task: Use association rules to identify unusual item combinations linked to 
+theft. 
+24. Predictive Maintenance Using Classification and Regression 
+• Scenario: A manufacturing plant wants to predict machine failures.  
+• Task: Use classification to detect failure types and regression to estimate time
+to-failure. 
+25. Healthcare Personalization Using Clustering and Association Rules 
+• Scenario: A health provider wants to personalize treatment plans.  
+• Task: Cluster patients by symptoms and mine treatment patterns using 
+association rules.
